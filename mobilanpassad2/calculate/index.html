@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceleration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="pull-to-refresh"></div>
+
+    <div class="logo">
+        <img src="Images/ferrari-logo-C75D80471C-seeklogo.com.png" alt="">
+    </div>
+    
+
+    <video autoplay muted loop id="myVideo">
+        <source src="Videos/ferrarivideo.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    
+    <div class="content">
+
+
+        <div class="calc-header">
+            <h>Räkna ut accelerationen på din bil:</h>
+
+            <p>Hastighetsförändringen (km/h):</p>
+        
+            <input type="number" id="weightid" value="">
+        
+            <p>Tid (s):</p>
+        
+            <input type="number" id="repsid" value="">
+        
+            <p>Tryck på knappen nedan för att ta reda på accelerationen av din bil.</p>
+        
+            <button onclick="myFunction()">Räkna</button>
+
+            <p id="benchoutput"></p>
+            
+        </div>
+
+    </div>
+
+    <div class="navBar">
+        <a href="/index.html">Hem</a>
+    </div>
+
+    <script src="benchpress.js"></script>
+
+
+</body>
+</html>

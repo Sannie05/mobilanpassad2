@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    margin-top: 120px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.content {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.calc-header {
+    text-align: center;
+    margin-top: 100px   ;
+}
+
+.calc-header h {
+    font-size: 25px;
+}
+
+.navBar {
+    background-color: #150202;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    text-align: center;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+    line-height: 60px; 
+}
+
+.navBar a:hover {
+    background-color: #000000;
+}
+
+
+

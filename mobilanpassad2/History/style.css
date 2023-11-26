@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-image: url("Images/background.jpg");
+    background-position-x: center;
+}
+
+.logo {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.navBar {
+    background-color: #150202;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    text-align: center;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+    line-height: 60px; 
+}
+
+.navBar a:hover {
+    background-color: #000000;
+}
+
+.text {
+    margin: 60px 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.833);
+    border-radius: 20px;
+    font-style: italic;
+}
